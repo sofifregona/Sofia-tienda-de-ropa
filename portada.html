@@ -15,6 +15,7 @@
       rel="stylesheet"
     />
     <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/portada.css" rel="stylesheet" />
   </head>
   <body>
     <header>
@@ -42,17 +43,17 @@
     </header>
     <main>
       <div class="row">
-        <div class="col-12 col-md-3 menu-navegacion">
+        <div class="col-12 col-md-2 menu-navegacion">
           <nav class="navbar">
             <ul class="navbar-nav">
               <li class="nav-item active">
                 <a class="nav-link" href="#">ACCESORIOS</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="#">BLUSAS</a>
+                <a class="nav-link" href="#">BLUSAS Y CAMISAS</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="#">CAMPERAS</a>
+                <a class="nav-link" href="#">ABRIGOS</a>
               </li>
               <li class="nav-item active">
                 <a class="nav-link" href="#">PANTALONES</a>
@@ -63,7 +64,7 @@
             </ul>
           </nav>
         </div>
-        <div class="col-12 col-md-9 contenido">
+        <div class="col-12 col-md-10 contenido">
           <div class="row">
             <div class="col-12 destacados">
               <h4>Destacados</h4>
@@ -129,9 +130,14 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-6 col-sm-4"><p>Columna 1</p></div>
-            <div class="col-6 col-sm-4"><p>Columna 2</p></div>
-            <div class="col-6 col-sm-4"><p>Columna 3</p></div>
+            <div class="col-6 col-sm-3 columna-productos" id="columna-productos1">
+            </div>
+            <div class="col-6 col-sm-3 columna-productos" id="columna-productos2">
+            </div>
+            <div class="col-6 col-sm-3 columna-productos" id="columna-productos3">
+            </div>
+            <div class="col-6 col-sm-3 columna-productos" id="columna-productos4">
+            </div>
           </div>
         </div>
       </div>
@@ -141,6 +147,6 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
-    <script src="lector.js" type="module"></script>
+    <script src="scripts/cargarProductos.js" type="module"></script>
   </body>
 </html>

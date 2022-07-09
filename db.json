@@ -2,7 +2,7 @@
   "productos": [
     {
       "id": "0001",
-      "nombre": "Blusa X",
+      "nombre": "Blusa Jessica",
       "categoria": "Blusas y camisas",
       "precio": "$75.0",
       "imagen": "assets/img/blusa_1.jpg",
@@ -29,6 +29,56 @@
       "descripcion": "Descirpcion...",
       "talles": ["XS", "S", "M", "L", "XL"],
       "destacado": true
-    }
+    },
+    {
+        "id": "0004",
+        "nombre": "Blusa X",
+        "categoria": "Blusas y camisas",
+        "imagen": "assets/img/blusa_4.jpg",
+        "precio": "$75.0",
+        "descripcion": "Descirpcion...",
+        "talles": ["XS", "S", "M", "L", "XL"],
+        "destacado": true
+      },
+      {
+        "id": "0005",
+        "nombre": "Blusa X",
+        "categoria": "Blusas y camisas",
+        "imagen": "assets/img/blusa_5.jpg",
+        "precio": "$75.0",
+        "descripcion": "Descirpcion...",
+        "talles": ["XS", "S", "M", "L", "XL"],
+        "destacado": true
+      },
+      {
+        "id": "0006",
+        "nombre": "Blusa X",
+        "categoria": "Blusas y camisas",
+        "imagen": "assets/img/blusa_6.jpg",
+        "precio": "$75.0",
+        "descripcion": "Descirpcion...",
+        "talles": ["XS", "S", "M", "L", "XL"],
+        "destacado": true
+      },
+      {
+        "id": "0007",
+        "nombre": "Blusa X",
+        "categoria": "Blusas y camisas",
+        "imagen": "assets/img/blusa_7.jpg",
+        "precio": "$75.0",
+        "descripcion": "Descirpcion...",
+        "talles": ["XS", "S", "M", "L", "XL"],
+        "destacado": true
+      },
+      {
+        "id": "0008",
+        "nombre": "Blusa X",
+        "categoria": "Blusas y camisas",
+        "imagen": "assets/img/blusa_8.jpg",
+        "precio": "$75.0",
+        "descripcion": "Descirpcion...",
+        "talles": ["XS", "S", "M", "L", "XL"],
+        "destacado": true
+      }
   ]
 }

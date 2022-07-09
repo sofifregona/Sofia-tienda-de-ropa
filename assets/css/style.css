@@ -1,3 +1,7 @@
+.row {
+  --bs-gutter-x: 0;
+}
+
 .barra-navegacion {
   background-color: #f7f6f2;
   display: flex;
@@ -44,7 +48,8 @@
 
 .contenido {
   background-color: #f7f6f2;
-  height: 200px;
+  height: auto;
+  padding: 0;
 }
 
 #carouselExampleIndicators {
