@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.0-beta1",
+    "heroku": "^7.60.2"
+  }
+}

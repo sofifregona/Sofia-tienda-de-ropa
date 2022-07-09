@@ -1,0 +1,52 @@
+.barra-navegacion {
+  background-color: #f7f6f2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 5%;
+}
+
+.navbar-brand {
+  font-family: "DM Serif Display", cursive;
+  font-size: 55px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 0;
+  vertical-align: center;
+}
+
+.navbar-expand {
+  justify-content: flex-end;
+}
+
+.menu-navegacion {
+  background-color: #f7f6f2;
+  padding-left: 2%;
+}
+
+.destacados {
+    padding: 1rem 0;
+}
+
+.destacados h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.banner {
+  background: url(../img/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.contenido {
+  background-color: #f7f6f2;
+  height: 200px;
+}
+
+#carouselExampleIndicators {
+  height: 200px;
+}
