@@ -1,4 +1,4 @@
-import { productoServicios } from "../service/productoServicios.js"
+import { productoServicios } from "../service/productoServicios.js";
 
 const crearNuevaLinea = (id, nombre, precio, imagen) => {
     const linea = document.createElement("div");
