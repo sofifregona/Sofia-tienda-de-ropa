@@ -17,15 +17,15 @@ const crearNuevaLinea = (id, nombre, precio, imagen) => {
 productoServicios.listaProductos().then((response) => {
     let numeroDeColumna = 1;
     let cantidadColumnas;
-    if (window < 540){
+    if (window.innerWidth < 540){
         cantidadColumnas = 2;
     } else {
         cantidadColumnas = 4;
     }
     response.forEach((articulo) => {
         const linea = crearNuevaLinea(articulo.id, articulo.nombre, articulo.precio, articulo.imagen);
-        const columna = document.querySelector(`#columna-productos${numeroDeColumna}`)
-        if (numeroDeColumna === 4){
+        const columna = document.querySelector(`#columna-productos${numeroDeColumna}`);
+        if (numeroDeColumna === cantidadColumnas){
             numeroDeColumna = 1;
         } else {
             numeroDeColumna++;

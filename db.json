@@ -2,27 +2,27 @@
   "productos": [
     {
       "id": "0001",
-      "nombre": "Blusa Jessica",
+      "nombre": "Camisa Leopardo",
       "categoria": "Blusas y camisas",
       "precio": "$75.0",
       "imagen": "assets/img/blusa_1.jpg",
       "descripcion": "Descirpcion...",
-      "talles": ["XS", "S", "M", "L", "XL"],
+      "talles": ["S", "L", "XL"],
       "destacado": true
     },
     {
       "id": "0002",
-      "nombre": "Blusa X",
+      "nombre": "Blusa Camila",
       "categoria": "Blusas y camisas",
       "imagen": "assets/img/blusa_2.jpg",
       "precio": "$75.0",
       "descripcion": "Descirpcion...",
-      "talles": ["XS", "S", "M", "L", "XL"],
+      "talles": ["XS", "S", "M", "L"],
       "destacado": true
     },
     {
       "id": "0003",
-      "nombre": "Blusa X",
+      "nombre": "Blusa Paula",
       "categoria": "Blusas y camisas",
       "imagen": "assets/img/blusa_3.jpg",
       "precio": "$75.0",
@@ -32,27 +32,27 @@
     },
     {
         "id": "0004",
-        "nombre": "Blusa X",
+        "nombre": "Blusa Ana",
         "categoria": "Blusas y camisas",
         "imagen": "assets/img/blusa_4.jpg",
         "precio": "$75.0",
         "descripcion": "Descirpcion...",
-        "talles": ["XS", "S", "M", "L", "XL"],
+        "talles": ["M", "L", "XL"],
         "destacado": true
       },
       {
         "id": "0005",
-        "nombre": "Blusa X",
+        "nombre": "Blusa Magazine",
         "categoria": "Blusas y camisas",
         "imagen": "assets/img/blusa_5.jpg",
         "precio": "$75.0",
         "descripcion": "Descirpcion...",
-        "talles": ["XS", "S", "M", "L", "XL"],
+        "talles": ["XS", "L", "XL"],
         "destacado": true
       },
       {
         "id": "0006",
-        "nombre": "Blusa X",
+        "nombre": "Blusa Josefina",
         "categoria": "Blusas y camisas",
         "imagen": "assets/img/blusa_6.jpg",
         "precio": "$75.0",
@@ -62,22 +62,22 @@
       },
       {
         "id": "0007",
-        "nombre": "Blusa X",
+        "nombre": "Camisa Jazmín",
         "categoria": "Blusas y camisas",
         "imagen": "assets/img/blusa_7.jpg",
         "precio": "$75.0",
         "descripcion": "Descirpcion...",
-        "talles": ["XS", "S", "M", "L", "XL"],
+        "talles": ["S", "M", "L", "XL"],
         "destacado": true
       },
       {
         "id": "0008",
-        "nombre": "Blusa X",
+        "nombre": "Blusa Abigail",
         "categoria": "Blusas y camisas",
         "imagen": "assets/img/blusa_8.jpg",
         "precio": "$75.0",
         "descripcion": "Descirpcion...",
-        "talles": ["XS", "S", "M", "L", "XL"],
+        "talles": ["L", "XL"],
         "destacado": true
       }
   ]

@@ -25,11 +25,23 @@
 
 .menu-navegacion {
   background-color: #f7f6f2;
-  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.navbar-nav {
+  width: 100%;
 }
 
 .destacados {
     padding: 1rem 0;
+}
+
+.filtro-producto {
+  padding-left: 8%;
+}
+
+.filtro-producto:hover {
+  background-color: #DFDFDE;
 }
 
 .destacados h4 {
@@ -52,6 +64,14 @@
   padding: 0;
 }
 
-#carouselExampleIndicators {
+#myCarousel {
+  background-color: #DFDFDE;
   height: 200px;
+  justify-content: center;
+}
+
+.carousel-item img {
+  width: 20%;
+  height: 20%;
+  margin: 0 auto;
 }

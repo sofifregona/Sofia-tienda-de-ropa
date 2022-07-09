@@ -1,11 +1,12 @@
-.columna-productos{
-    display: inline;
-}
-
 .producto {
     box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
     margin: 15% 8%;
     padding: 5%;
+}
+
+.producto:hover {
+    background-color: #FEFBF3;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.15);
 }
 
 .imagen-producto {
