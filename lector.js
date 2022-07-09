@@ -6,7 +6,7 @@ const readImagen = (file) => {
 
 const listaProductos = async () => {
     try {
-      const respuesta = await fetch("db.json");
+      const respuesta = await fetch("https://sofia-tienda-de-ropa.herokuapp.com/");
         console.log(respuesta)
       return await respuesta.json();
     } catch (error) {
