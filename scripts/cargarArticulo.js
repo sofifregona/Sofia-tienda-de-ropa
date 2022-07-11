@@ -11,7 +11,7 @@ productoServicios.detalleProducto(id).then((response) => {
     imagen.style.cssText = `background: url(${response.imagen}); background-position: center; background-repeat: no-repeat; background-size: cover;`
     nombre.innerHTML = response.nombre;
     if (response.nuevoprecio !== ""){
-        precio.innerHTML = `<del>${response.precio}</del> ${nuevoprecio};`
+        precio.innerHTML = `<del>${response.precio}</del> ${response.nuevoprecio};`
     }
     descripcion.innerHTML = response.descripcion;
     response.talles.forEach((talle) => {
