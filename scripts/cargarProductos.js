@@ -30,7 +30,6 @@ productoServicios.listaProductos().then((response) => {
     cantidadColumnas = 4;
   }
   response.forEach((articulo) => {
-    console.log(articulo.categoria)
     if (articulo.categoria.toLowerCase().includes(categoriaSeleccionada)) {
       const linea = crearNuevaLinea(
         articulo.id,

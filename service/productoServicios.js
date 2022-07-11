@@ -21,7 +21,6 @@ const detalleProducto = async (id) => {
 };
 
 export const productoServicios = {
-  readImagen,
   listaProductos,
   detalleProducto
 }
