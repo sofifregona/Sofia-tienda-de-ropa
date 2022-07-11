@@ -1,0 +1,28 @@
+.formulario-registro {
+    padding: 5% 20%;
+    background-color: #f7f6f2;
+}
+
+.form-group {
+    align-items: center;
+}
+
+.form-control {
+    margin: 2% 0;
+}
+
+.form-check{
+    text-align: center;
+}
+
+.div-boton {
+    padding-top: 5%;
+    width:100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .formulario-registro {
+        padding: 5% 5%;
+    }   
+}

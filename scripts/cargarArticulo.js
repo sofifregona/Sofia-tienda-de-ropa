@@ -10,7 +10,9 @@ const talles = document.querySelector(".talles-articulo");
 productoServicios.detalleProducto(id).then((response) => {
     imagen.style.cssText = `background: url(${response.imagen}); background-position: center; background-repeat: no-repeat; background-size: cover;`
     nombre.innerHTML = response.nombre;
-    precio.innerHTML = response.precio;
+    if (response.nuevoprecio !== ""){
+        precio.innerHTML = `<del>${response.precio}</del> ${nuevoprecio};`
+    }
     descripcion.innerHTML = response.descripcion;
     response.talles.forEach((talle) => {
         const circulo = document.createElement("div");

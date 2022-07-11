@@ -13,7 +13,7 @@ const crearNuevoBoton = (slide) => {
   return boton;
 };
 
-const crearNuevaLinea = (id, nombre, precio, imagen) => {
+const crearNuevaLinea = (id, nombre, precio, imagen, nuevoprecio) => {
   const linea = document.createElement("div");
   linea.classList.add("carousel-item");
   const contenido = `<div class="destacado">
@@ -28,6 +28,9 @@ const crearNuevaLinea = (id, nombre, precio, imagen) => {
   linea.querySelector(
     ".imagen-item"
   ).style.cssText = `background-image: url(${imagen});`;
+  if (nuevoprecio !== ""){
+    linea.querySelector(".precio-item").innerHTML = `<del>${precio}</del> ${nuevoprecio}`;
+  }
   return linea;
 };
 
@@ -39,7 +42,8 @@ productoServicios.listaProductos().then((response) => {
         articulo.id,
         articulo.nombre,
         articulo.precio,
-        articulo.imagen
+        articulo.imagen,
+        articulo.nuevoprecio
       );
       const boton = crearNuevoBoton(numeroSlide);
       numeroSlide++;
