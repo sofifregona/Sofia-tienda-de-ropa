@@ -10,11 +10,6 @@ const crearNuevoBoton = (slide) => {
   boton.setAttribute("data-bs-target", "#myCarousel");
   boton.setAttribute("data-bs-slide-to", `${slide}`);
   boton.setAttribute("aria-label", `Slide ${slide+1}`);
-  console.log(boton)
-  //`<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="${slide}" label="${slide+1}"></button>`
-  //boton.innerHTML = ;
-  //linea.classList.add("active");
-  //linea.ariaCurrent="true"
   return boton;
 };
 
@@ -26,7 +21,7 @@ const crearNuevaLinea = (id, nombre, precio, imagen) => {
     <div class="contenido-item d-block">
         <p class="nombre-item">${nombre}</p>
         <p class="precio-item">${precio}</p>
-        <a class="detalle-item" href="articulo.html?id=${id}">Ver producto</a>
+        <a href="articulo.html?id=${id}"><button type="button" class="btn btn-outline-secondary">Ver producto</button></a>
     </div>
   </div>`;
   linea.innerHTML = contenido;
@@ -53,7 +48,6 @@ productoServicios.listaProductos().then((response) => {
     }
   })
 }).finally(() => {
-  console.log(document.querySelectorAll(".boton-destacados"))
   document.querySelectorAll(".carousel-item")[0].classList.add("active");
   document.querySelectorAll(".boton-destacados")[0].classList.add("active");
   document.querySelectorAll(".boton-destacados")[0].setAttribute("aria-current", "true");

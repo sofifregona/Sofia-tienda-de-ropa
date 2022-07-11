@@ -3,42 +3,46 @@
     {
       "id": "0001",
       "nombre": "Camisa Leopardo",
-      "categoria": "Blusas y camisas",
+      "categoria": "Camisas",
       "precio": "$75.0",
       "imagen": "assets/img/blusa_1.jpg",
-      "descripcion": "Descirpcion...",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
       "talles": ["S", "L", "XL"],
-      "destacado": true
+      "oferta": true,
+      "nuevo precio": "$25.0"
     },
     {
       "id": "0002",
       "nombre": "Blusa Camila",
-      "categoria": "Blusas y camisas",
+      "categoria": "Blusas",
       "imagen": "assets/img/blusa_2.jpg",
       "precio": "$75.0",
-      "descripcion": "Descirpcion...",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
       "talles": ["XS", "S", "M", "L"],
-      "destacado": true
+      "destacado": false,
+      "nuevo precio": ""
     },
     {
       "id": "0003",
       "nombre": "Blusa Paula",
-      "categoria": "Blusas y camisas",
+      "categoria": "Blusas",
       "imagen": "assets/img/blusa_3.jpg",
       "precio": "$75.0",
-      "descripcion": "Descirpcion...",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
       "talles": ["XS", "S", "M", "L", "XL"],
-      "destacado": true
+      "destacado": false,
+      "nuevo precio": ""
     },
     {
         "id": "0004",
         "nombre": "Blusa Ana",
-        "categoria": "Blusas y camisas",
+        "categoria": "Blusas",
         "imagen": "assets/img/blusa_4.jpg",
         "precio": "$75.0",
-        "descripcion": "Descirpcion...",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
         "talles": ["M", "L", "XL"],
-        "destacado": true
+        "destacado": false,
+        "nuevo precio": ""
       },
       {
         "id": "0005",
@@ -46,39 +50,43 @@
         "categoria": "Blusas y camisas",
         "imagen": "assets/img/blusa_5.jpg",
         "precio": "$75.0",
-        "descripcion": "Descirpcion...",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
         "talles": ["XS", "L", "XL"],
-        "destacado": true
+        "destacado": true,
+        "nuevo precio": "$50.0"
       },
       {
         "id": "0006",
         "nombre": "Blusa Josefina",
-        "categoria": "Blusas y camisas",
+        "categoria": "Blusas",
         "imagen": "assets/img/blusa_6.jpg",
         "precio": "$75.0",
-        "descripcion": "Descirpcion...",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
         "talles": ["XS", "S", "M", "L", "XL"],
-        "destacado": true
+        "destacado": false,
+        "nuevo precio": ""
       },
       {
         "id": "0007",
         "nombre": "Camisa Jazmín",
-        "categoria": "Blusas y camisas",
+        "categoria": "Camisas",
         "imagen": "assets/img/blusa_7.jpg",
         "precio": "$75.0",
-        "descripcion": "Descirpcion...",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
         "talles": ["S", "M", "L", "XL"],
-        "destacado": true
+        "destacado": false,
+        "nuevo precio": ""
       },
       {
         "id": "0008",
         "nombre": "Blusa Abigail",
-        "categoria": "Blusas y camisas",
+        "categoria": "Blusas",
         "imagen": "assets/img/blusa_8.jpg",
         "precio": "$75.0",
-        "descripcion": "Descirpcion...",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
         "talles": ["L", "XL"],
-        "destacado": true
+        "destacado": false,
+        "nuevo precio": ""
       }
   ]
 }

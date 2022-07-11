@@ -14,7 +14,19 @@ const listaProductos = async () => {
   }
 };
 
+const detalleProducto = async (id) => {
+  try {
+    const respuesta = await fetch(
+      `https://sofia-tienda-de-ropa.herokuapp.com/productos/${id}`
+    );
+    return await respuesta.json();
+  } catch (error) {
+    return console.log(error);
+  }
+};
+
 export const productoServicios = {
   readImagen,
-  listaProductos
+  listaProductos,
+  detalleProducto
 }

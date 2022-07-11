@@ -26,10 +26,15 @@
 .menu-navegacion {
   background-color: #f7f6f2;
   padding-right: 2%;
+  padding-top: 3%;
 }
 
 .navbar-nav {
   width: 100%;
+}
+
+.nav-link {
+  font-size: 15px;
 }
 
 .filtro-producto {
@@ -44,6 +49,7 @@
     font-size: 20px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.7);
+    text-align: center;
 }
 
 .banner {
@@ -65,15 +71,16 @@
   height: auto;
   justify-content: center;
   align-items: center;
-  padding: 1rem 1rem 0 1rem;
+  padding: 1rem 4rem 0 4rem;
 }
 
 .destacado {
+  background-color: #f7f6f2;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
-  width: 50vw;
+  width: 30vw;
   height: auto;
   margin: 1% auto 2% auto;
 }
@@ -82,13 +89,13 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 25vw;
-  height: 18vw;
+  width: 10vw;
+  height: 10vw;
   margin: 2%;
 }
 
 .contenido-item {
-  margin: 5% 1%;
+  margin: 2% 1%;
 }
 
 .carousel-indicators .boton-destacados {
@@ -104,4 +111,38 @@
   position: static;
   padding-bottom: 1%;
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+
+  .navbar-brand {
+    font-size: 50px;
+  }
+
+  .banner {
+    height: 200px;
+  }
+
+  .navbar-nav{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .filtro-producto {
+    text-align: center;
+    padding: 0 3%;
+  }
+
+  #myCarousel h4 {
+    text-align: center;
+  }
+
+  .redes-sociales .copyright {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+
 }

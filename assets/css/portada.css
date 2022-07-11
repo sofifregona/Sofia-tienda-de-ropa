@@ -17,3 +17,21 @@
     height: 18vw;
     margin: 0 auto;
 }
+
+.nombre-producto {
+    margin-bottom: 2%;
+    margin-top:2%;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.precio-producto {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (max-width: 768px) {
+
+    .imagen-producto {
+        height: 20vw;
+    }
+}

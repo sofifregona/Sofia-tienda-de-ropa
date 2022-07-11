@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Sofia.</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/articulo.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="row">
+        <div class="col-12 barra-navegacion">
+          <p class="navbar-brand">Sofia.</p>
+          <nav class="navbar navbar-expand">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Ingresar</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Registrarse</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 banner"></div>
+      </div>
+    </header>
+    <main>
+      <div class="row">
+        <div class="col-12 destacados">
+          <div id="myCarousel" class="carousel slide" data-bs-ride="true">
+            <h4>✨¡SUPER SALE!✨</h4>
+            <div class="carousel-inner">
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#myCarousel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#myCarousel"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="carousel-indicators">
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-2 menu-navegacion">
+          <nav class="navbar menu-filtro">
+            <ul class="navbar-nav">
+              <li class="nav-item filtro-producto">
+                <a class="nav-link" href="#">VER TODO</a>
+              </li>
+              <li class="nav-item filtro-producto">
+                <a class="nav-link" href="#">ACCESORIOS</a>
+              </li>
+              <li class="nav-item filtro-producto">
+                <a class="nav-link" href="#">BLUSAS</a>
+              </li>
+              <li class="nav-item filtro-producto">
+                <a class="nav-link" href="#">CAMISAS</a>
+              </li>
+              <li class="nav-item filtro-producto">
+                <a class="nav-link" href="#">ABRIGOS</a>
+              </li>
+              <li class="nav-item filtro-producto">
+                <a class="nav-link" href="#">PANTALONES</a>
+              </li>
+              <li class="nav-item filtro-producto">
+                <a class="nav-link" href="#">VESTIDOS</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-12 col-md-10 contenido">
+          <div class="row articulo">
+            <div class="col-12 col-sm-6 imagen-articulo"></div>
+            <div class="col-12 col-sm-6 contenido-articulo">
+                <h2 class="nombre-articulo"></h2>
+                <p class="precio-articulo"></p>
+                <p class="descripcion-articulo"></p>
+                <p class="talles-titulo-articulo">Talles disponibles:</p>
+                <div class="talles-articulo"></div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="row">
+        <div class="col-6 redes-sociales"></div>
+        <div class="col-6 copyright">
+          <p>María Sofía Fregona</p>
+          <p>copyright 2022</p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="scripts/cargarArticulo.js" type="module"></script>
+    <script src="scripts/cargarDestacados.js" type="module"></script>
+  </body>
+</html>
