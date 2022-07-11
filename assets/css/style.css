@@ -80,7 +80,7 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
-  width: 30vw;
+  width: 35vw;
   height: auto;
   margin: 1% auto 2% auto;
 }
@@ -90,7 +90,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 10vw;
-  height: 10vw;
+  height: 12vw;
   margin: 2%;
 }
 
@@ -111,6 +111,14 @@
   position: static;
   padding-bottom: 1%;
   margin-bottom: 0;
+}
+
+.footer {
+  padding-top: 4%;
+}
+
+.redes-sociales .copyright {
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -141,8 +149,21 @@
   .redes-sociales .copyright {
     margin: 0 auto;
   }
+  
+  .destacado {
+    width: 35vw;
+  }
+
+  .imagen-item {
+    height: 20vw;
+  }
 }
 
 @media screen and (max-width: 576px) {
+  #myCarousel {
+    width: 100%;
+  }
+
+
 
 }

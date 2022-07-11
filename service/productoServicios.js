@@ -1,8 +1,3 @@
-const readImagen = (file) => {
-  const reader = new FileReader();
-  reader.readAsDataURL(file);
-};
-
 const listaProductos = async () => {
   try {
     const respuesta = await fetch(

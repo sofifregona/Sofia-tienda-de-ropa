@@ -10,7 +10,7 @@
  }
 
  .imagen-articulo {
-    width: 300px;
+    width: 50%;
     height: 450px;
  }
 
@@ -35,4 +35,21 @@
     padding: 1%;
     text-align: center;
     margin: auto 1.75% auto 0;
+ }
+
+ @media screen and (max-width: 768px) {
+      
+   .imagen-articulo {
+      width: 100%;
+   }
+
+   .contenido-articulo {
+      padding-top: 2%;
+      width: 100%;
+      text-align: center;
+   }
+
+   .talles-articulo {
+      justify-content: center;
+   }
  }
