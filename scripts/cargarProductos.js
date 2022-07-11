@@ -1,5 +1,7 @@
 import { productoServicios } from "../service/productoServicios.js";
 
+let categoria = "";
+
 const crearNuevaLinea = (id, nombre, precio, imagen) => {
   const linea = document.createElement("div");
   linea.classList.add("producto");
