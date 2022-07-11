@@ -2,7 +2,7 @@ import { productoServicios } from "../service/productoServicios.js";
 
 const categoriaSeleccionada = window.location.search.slice(11);
 
-const crearNuevaLinea = (id, nombre, precio, imagen) => {
+const crearNuevaLinea = (id, nombre, precio, imagen, nuevoprecio) => {
   const linea = document.createElement("div");
   linea.classList.add("producto");
   linea.id = id;
@@ -15,6 +15,9 @@ const crearNuevaLinea = (id, nombre, precio, imagen) => {
   linea.querySelector(
     ".imagen-producto"
   ).style.cssText = `background-image: url(${imagen});`;
+  if (nuevoprecio !== ""){
+    linea.querySelector(".precio-producto").innerHTML = `<del>${precio}</del> ${nuevoprecio}`;
+  }
   return linea;
 };
 
@@ -33,7 +36,8 @@ productoServicios.listaProductos().then((response) => {
         articulo.id,
         articulo.nombre,
         articulo.precio,
-        articulo.imagen
+        articulo.imagen,
+        articulo.nuevoprecio
       );
       const columna = document.querySelector(
         `#columna-productos${numeroDeColumna}`

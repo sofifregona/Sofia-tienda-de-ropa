@@ -9,7 +9,7 @@
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
       "talles": ["S", "L", "XL"],
       "oferta": true,
-      "nuevo precio": "$25.0"
+      "nuevoprecio": "$25.0"
     },
     {
       "id": "0002",
@@ -20,7 +20,7 @@
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
       "talles": ["XS", "S", "M", "L"],
       "destacado": false,
-      "nuevo precio": ""
+      "nuevoprecio": ""
     },
     {
       "id": "0003",
@@ -31,7 +31,7 @@
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
       "talles": ["XS", "S", "M", "L", "XL"],
       "destacado": false,
-      "nuevo precio": ""
+      "nuevoprecio": ""
     },
     {
         "id": "0004",
@@ -42,7 +42,7 @@
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
         "talles": ["M", "L", "XL"],
         "destacado": false,
-        "nuevo precio": ""
+        "nuevoprecio": ""
       },
       {
         "id": "0005",
@@ -53,7 +53,7 @@
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
         "talles": ["XS", "L", "XL"],
         "destacado": true,
-        "nuevo precio": "$50.0"
+        "nuevoprecio": "$50.0"
       },
       {
         "id": "0006",
@@ -64,7 +64,7 @@
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
         "talles": ["XS", "S", "M", "L", "XL"],
         "destacado": false,
-        "nuevo precio": ""
+        "nuevoprecio": ""
       },
       {
         "id": "0007",
@@ -75,7 +75,7 @@
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
         "talles": ["S", "M", "L", "XL"],
         "destacado": false,
-        "nuevo precio": ""
+        "nuevoprecio": ""
       },
       {
         "id": "0009",
@@ -86,7 +86,7 @@
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
         "talles": ["XS", "M", "L", "XL"],
         "destacado": true,
-        "nuevo precio": "$60.0"
+        "nuevoprecio": "$60.0"
       },
       {
         "id": "0010",
@@ -97,7 +97,7 @@
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
         "talles": ["L", "XL"],
         "destacado": false,
-        "nuevo precio": ""
+        "nuevoprecio": ""
       },
       {
         "id": "0011",
@@ -108,7 +108,7 @@
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
         "talles": ["S", "L", "XL"],
         "destacado": false,
-        "nuevo precio": ""
+        "nuevoprecio": ""
       },
       {
         "id": "0012",
@@ -119,7 +119,7 @@
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
         "talles": ["XS", "S", "M", "L", "XL"],
         "destacado": false,
-        "nuevo precio": ""
+        "nuevoprecio": ""
       },
       {
         "id": "0013",
@@ -130,7 +130,7 @@
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
         "talles": ["M", "L"],
         "destacado": false,
-        "nuevo precio": ""
+        "nuevoprecio": ""
       },
       {
         "id": "0014",
@@ -141,7 +141,7 @@
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
         "talles": ["S", "M"],
         "destacado": true,
-        "nuevo precio": "$60.0"
+        "nuevoprecio": "$60.0"
       },
       {
         "id": "0008",
@@ -152,7 +152,7 @@
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
         "talles": ["L", "XL"],
         "destacado": false,
-        "nuevo precio": ""
+        "nuevoprecio": ""
       }
   ]
 }
