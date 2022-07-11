@@ -34,7 +34,7 @@ const crearNuevaLinea = (id, nombre, precio, imagen) => {
 productoServicios.listaProductos().then((response) => {
   let numeroSlide = 0;
   response.forEach((articulo) => {
-    if (articulo.destacado) {
+    if (articulo.oferta) {
       const linea = crearNuevaLinea(
         articulo.id,
         articulo.nombre,

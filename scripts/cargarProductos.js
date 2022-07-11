@@ -1,6 +1,6 @@
 import { productoServicios } from "../service/productoServicios.js";
 
-let categoria = "";
+const categoriaSeleccionada = window.location.search.slice(11);
 
 const crearNuevaLinea = (id, nombre, precio, imagen) => {
   const linea = document.createElement("div");
@@ -27,20 +27,23 @@ productoServicios.listaProductos().then((response) => {
     cantidadColumnas = 4;
   }
   response.forEach((articulo) => {
-    const linea = crearNuevaLinea(
-      articulo.id,
-      articulo.nombre,
-      articulo.precio,
-      articulo.imagen
-    );
-    const columna = document.querySelector(
-      `#columna-productos${numeroDeColumna}`
-    );
-    if (numeroDeColumna === cantidadColumnas) {
-      numeroDeColumna = 1;
-    } else {
-      numeroDeColumna++;
+    console.log(articulo.categoria)
+    if (articulo.categoria.toLowerCase().includes(categoriaSeleccionada)) {
+      const linea = crearNuevaLinea(
+        articulo.id,
+        articulo.nombre,
+        articulo.precio,
+        articulo.imagen
+      );
+      const columna = document.querySelector(
+        `#columna-productos${numeroDeColumna}`
+      );
+      if (numeroDeColumna === cantidadColumnas) {
+        numeroDeColumna = 1;
+      } else {
+        numeroDeColumna++;
+      }
+      columna.appendChild(linea);
     }
-    columna.appendChild(linea);
   });
 });
