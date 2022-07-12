@@ -80,7 +80,7 @@
       {
         "id": "0008",
         "nombre": "Blusa Abigail",
-        "categoria": "Abrigos",
+        "categoria": "Blusa",
         "imagen": "assets/img/imagen_8.jpg",
         "precio": "$75.0",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
@@ -146,7 +146,7 @@
       {
         "id": "0014",
         "nombre": "Saco Gold",
-        "categoria": "Blusas",
+        "categoria": "Abrigos",
         "imagen": "assets/img/imagen_14.jpg",
         "precio": "$75.0",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
