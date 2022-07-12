@@ -18,8 +18,24 @@
     padding-left: 3%;
  }
 
- .precio {
-    font-weight: 600;
+ .descripcion-articulo {
+   text-align: justify;
+   font-size: 0.85rem;
+   color: rgba(0, 0, 0, 0.7);
+ }
+
+ .nombre-articulo {
+   font-family: "DM Serif Display", cursive;
+   color: rgba(0, 0, 0, 0.7);
+ }
+
+ .precio-articulo {
+    color: rgba(0, 0, 0, 0.7);
+ }
+
+ .talles-titulo-articulo {
+   font-size: 0.85rem;
+   color: rgba(0, 0, 0, 0.7);
  }
 
  .talles-articulo {
@@ -38,6 +54,10 @@
  }
 
  @media screen and (max-width: 768px) {
+
+   .articulo {
+      padding: 2% 2% 5% 2%;
+   }
       
    .imagen-articulo {
       width: 100%;

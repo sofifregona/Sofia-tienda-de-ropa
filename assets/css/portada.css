@@ -19,9 +19,10 @@
 }
 
 .nombre-producto {
+    font-family: "DM Serif Display", cursive;
     margin-bottom: 2%;
     margin-top:2%;
-    font-size: 1rem;
+    font-size: 1.25rem;
     color: rgba(0, 0, 0, 0.7);
 }
 
@@ -33,5 +34,19 @@
 
     .imagen-producto {
         height: 20vw;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .imagen-producto {
+        height: 50vw;
+    }
+
+    .nombre-producto {
+        font-size: 1rem;
+    }
+
+    .btn-ver-producto {
+        font-size: 0.8rem;
     }
 }

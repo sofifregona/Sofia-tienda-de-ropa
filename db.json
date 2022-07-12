@@ -78,10 +78,10 @@
         "nuevoprecio": ""
       },
       {
-        "id": "0009",
+        "id": "0008",
         "nombre": "Saco Semi Leopardo",
         "categoria": "Abrigos",
-        "imagen": "assets/img/imagen_9.jpg",
+        "imagen": "assets/img/imagen_8.jpg",
         "precio": "$75.0",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
         "talles": ["XS", "M", "L", "XL"],
@@ -89,10 +89,10 @@
         "nuevoprecio": "$60.0"
       },
       {
-        "id": "0010",
-        "nombre": "Saco Jotgelina",
+        "id": "0009",
+        "nombre": "Saco Jorgelina",
         "categoria": "Abrigos",
-        "imagen": "assets/img/imagen_10.jpg",
+        "imagen": "assets/img/imagen_9.jpg",
         "precio": "$75.0",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
         "talles": ["L", "XL"],
@@ -100,10 +100,10 @@
         "nuevoprecio": ""
       },
       {
-        "id": "0011",
+        "id": "0010",
         "nombre": "Saco Jessica",
         "categoria": "Abrigos",
-        "imagen": "assets/img/imagen_11.jpg",
+        "imagen": "assets/img/imagen_10.jpg",
         "precio": "$75.0",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
         "talles": ["S", "L", "XL"],
@@ -111,10 +111,10 @@
         "nuevoprecio": ""
       },
       {
-        "id": "0012",
+        "id": "0011",
         "nombre": "Saco Paradise",
         "categoria": "Abrigos",
-        "imagen": "assets/img/imagen_12.jpg",
+        "imagen": "assets/img/imagen_11.jpg",
         "precio": "$75.0",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
         "talles": ["XS", "S", "M", "L", "XL"],
@@ -122,10 +122,10 @@
         "nuevoprecio": ""
       },
       {
-        "id": "0013",
+        "id": "0012",
         "nombre": "Campera Piel Sintética",
         "categoria": "Abrigos",
-        "imagen": "assets/img/imagen_13.jpg",
+        "imagen": "assets/img/imagen_12.jpg",
         "precio": "$75.0",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
         "talles": ["M", "L"],
@@ -133,26 +133,169 @@
         "nuevoprecio": ""
       },
       {
-        "id": "0014",
+        "id": "0013",
         "nombre": "Saco Gold",
         "categoria": "Abrigos",
-        "imagen": "assets/img/imagen_14.jpg",
+        "imagen": "assets/img/imagen_13.jpg",
         "precio": "$75.0",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
         "talles": ["S", "M"],
-        "oferta": true,
-        "nuevoprecio": "$60.0"
+        "oferta": false,
+        "nuevoprecio": ""
       },
       {
-        "id": "0008",
+        "id": "0014",
         "nombre": "Blusa Abigail",
         "categoria": "Blusas",
-        "imagen": "assets/img/imagen_8.jpg",
+        "imagen": "assets/img/imagen_14.jpg",
         "precio": "$75.0",
         "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
         "talles": ["L", "XL"],
+        "oferta": true,
+        "nuevoprecio": "$60"
+      },
+      {
+        "id": "0015",
+        "nombre": "Vestido Margarita",
+        "categoria": "Vestidos",
+        "imagen": "assets/img/imagen_15.jpg",
+        "precio": "$75.0",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
+        "talles": ["XS", "M", "XL"],
         "oferta": false,
         "nuevoprecio": ""
+      },
+      {
+        "id": "0016",
+        "nombre": "Vestido Namasté",
+        "categoria": "Vestidos",
+        "imagen": "assets/img/imagen_16.jpg",
+        "precio": "$75.0",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
+        "talles": ["XS", "S", "M"],
+        "oferta": true,
+        "nuevoprecio": "$65"
+      },
+      {
+        "id": "0017",
+        "nombre": "Vestido Pinku",
+        "categoria": "Vestidos",
+        "imagen": "assets/img/imagen_17.jpg",
+        "precio": "$75.0",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
+        "talles": ["S","M","L","XL"],
+        "oferta": true,
+        "nuevoprecio": "$65"
+      },
+      {
+        "id": "0018",
+        "nombre": "Vestido Galaxy",
+        "categoria": "Vestidos",
+        "imagen": "assets/img/imagen_18.jpg",
+        "precio": "$75.0",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
+        "talles": ["M", "L", "XL"],
+        "oferta": false,
+        "nuevoprecio": ""
+      },
+      {
+        "id": "0019",
+        "nombre": "Vestido Sharon",
+        "categoria": "Vestidos",
+        "imagen": "assets/img/imagen_19.jpg",
+        "precio": "$125.0",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
+        "talles": ["XS", "S", "M", "XL"],
+        "oferta": false,
+        "nuevoprecio": ""
+      },
+      {
+        "id": "0020",
+        "nombre": "Vestido Tiffany",
+        "categoria": "Vestidos",
+        "imagen": "assets/img/imagen_20.jpg",
+        "precio": "$118.0",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
+        "talles": ["XS", "S"],
+        "oferta": false,
+        "nuevoprecio": ""
+      },
+      {
+        "id": "0021",
+        "nombre": "Collar Indiana",
+        "categoria": "Accesorios",
+        "imagen": "assets/img/imagen_21.jpg",
+        "precio": "$55.0",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
+        "talles": [],
+        "oferta": true,
+        "nuevoprecio": "$35"
+      },
+      {
+        "id": "0022",
+        "nombre": "Jean Calipso",
+        "categoria": "Pantalones",
+        "imagen": "assets/img/imagen_22.jpg",
+        "precio": "$70.0",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
+        "talles": ["30", "32", "38", "40"],
+        "oferta": true,
+        "nuevoprecio": "$45"
+      },
+      {
+        "id": "0023",
+        "nombre": "Short Anahí",
+        "categoria": "Pantalones",
+        "imagen": "assets/img/imagen_23.jpg",
+        "precio": "$75.0",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
+        "talles": ["28", "30", "36", "42"],
+        "oferta": false,
+        "nuevoprecio": ""
+      },
+      {
+        "id": "0024",
+        "nombre": "Pantalón Julia",
+        "categoria": "Pantalones",
+        "imagen": "assets/img/imagen_24.jpg",
+        "precio": "$75.0",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
+        "talles": ["32", "38", "40", "42"],
+        "oferta": true,
+        "nuevoprecio": "$60"
+      },
+      {
+        "id": "0025",
+        "nombre": "Pantalón Margot",
+        "categoria": "Pantalones",
+        "imagen": "assets/img/imagen_25.jpg",
+        "precio": "$89.0",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
+        "talles": ["28","32","36"],
+        "oferta": false,
+        "nuevoprecio": ""
+      },
+      {
+        "id": "0026",
+        "nombre": "Aros Estefanía",
+        "categoria": "Accesorios",
+        "imagen": "assets/img/imagen_26.jpg",
+        "precio": "$75.0",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
+        "talles": [],
+        "oferta": false,
+        "nuevoprecio": ""
+      },
+      {
+        "id": "0027",
+        "nombre": "Collar Sky",
+        "categoria": "Accesorios",
+        "imagen": "assets/img/imagen_16.jpg",
+        "precio": "$75.0",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis id tortor ac pretium. Donec nunc libero, tristique eu facilisis sed, aliquet ac urna. Aliquam pharetra id libero id molestie. Maecenas dignissim, augue non posuere efficitur, nulla metus semper eros, sodales facilisis sem elit eget ex. Suspendisse et bibendum nisi. Nunc lacinia enim non tincidunt vulputate. Ut lectus est, tincidunt et justo vitae, varius fringilla leo.",
+        "talles": [],
+        "oferta": true,
+        "nuevoprecio": "$60"
       }
   ]
 }

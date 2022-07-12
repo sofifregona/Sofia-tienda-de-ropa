@@ -21,7 +21,7 @@ const crearNuevaLinea = (id, nombre, precio, imagen, nuevoprecio) => {
     <div class="contenido-item d-block">
         <p class="nombre-item">${nombre}</p>
         <p class="precio-item">${precio}</p>
-        <a href="articulo.html?id=${id}"><button type="button" class="btn btn-outline-secondary">Ver producto</button></a>
+        <a href="articulo.html?id=${id}"><button type="button" class="btn btn-outline-secondary btn-ver-item">Ver producto</button></a>
     </div>
   </div>`;
   linea.innerHTML = contenido;

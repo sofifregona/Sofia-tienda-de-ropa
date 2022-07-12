@@ -15,10 +15,12 @@ productoServicios.detalleProducto(id).then((response) => {
     }
     descripcion.innerHTML = response.descripcion;
     response.talles.forEach((talle) => {
+        if (talle !== []){
         const circulo = document.createElement("div");
         circulo.innerHTML = talle;
         circulo.classList.add("talle");
         talles.appendChild(circulo);
+    }
     })
 })
 

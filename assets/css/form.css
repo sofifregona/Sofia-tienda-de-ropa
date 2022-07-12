@@ -1,10 +1,28 @@
 .formulario-registro {
-    padding: 5% 20%;
+    padding: 5% 10%;
     background-color: #f7f6f2;
 }
 
+.formulario-registro h4 {
+    width: 100%;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
 .form-group {
+    width: 100%;
+    justify-content: center;
     align-items: center;
+}
+
+.form-group label {
+    width: 120px;
+    padding: 1vw;
+}
+
+.columna-input{
+    width: 50%;
 }
 
 .form-control {
@@ -13,16 +31,87 @@
 
 .form-check{
     text-align: center;
+    padding: 1vw 10vw;
+}
+
+.seccion-recordar-password {
+    padding: 0 15vw;
+    display:flex;
+    justify-content: center;
+}
+
+.form-check .form-check-input {
+    float: none;
+    margin-left: 10px;
 }
 
 .div-boton {
-    padding-top: 5%;
+    padding-top: 1vw;
     width:100%;
     text-align: center;
+}
+
+.boton-login {
+    width: 200px;
 }
 
 @media screen and (max-width: 768px) {
     .formulario-registro {
         padding: 5% 5%;
     }   
+
+    .form-check {
+        padding: 2% 20vw;
+    }
+
+    .seccion-recordar-password {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .form-group label {
+        padding-left: 1%;
+        padding-bottom: 0;
+    }
+
+    .columna-input {
+        width: 100%;
+    }
+
+    .form-group {
+        justify-content: flex-start;
+    }
+
+    .form-group label {
+        width: 80vw;
+        font-size: 0.9rem
+    }
+
+    .form-control {
+        margin-top: 1%;
+        font-size: 0.9rem;
+    }
+
+    .form-control::placeholder {
+        font-size: 0.9rem;
+    }
+
+    .form-check {
+        padding: 2% 5vw;
+    }
+
+    .div-boton {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .boton-login {
+        margin: 1vw 0;
+        width: 175px;
+        font-size: 0.9rem;
+    }
+
+
 }

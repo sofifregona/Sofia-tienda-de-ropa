@@ -43,11 +43,12 @@
     </header>
     <main>
       <form class="formulario-registro">
+        <h4>Iniciar sesión:</h4>
         <div class="form-group row">
-          <label for="usuarioInput" class="col-sm-2 col-form-label"
+          <label for="usuarioInput" class="col-12 col-sm-2 col-form-label"
             >Usuario</label
           >
-          <div class="col-sm-10">
+          <div class="col-sm-10 columna-input">
             <input
               type="text"
               class="form-control"
@@ -57,10 +58,10 @@
           </div>
         </div>
         <div class="form-group row">
-          <label for="passwordInput" class="col-sm-2 col-form-label"
+          <label for="passwordInput" class="col-12 col-sm-2 col-form-label"
             >Contraseña</label
           >
-          <div class="col-sm-10">
+          <div class="col-12 col-sm-10 columna-input">
             <input
               type="password"
               class="form-control"
@@ -70,7 +71,7 @@
           </div>
         </div>
         <div class="form-check row">
-          <div class="col-12">
+          <div class="col-12 seccion-recordar-password">
             <label class="form-check-label" for="recordarPassword"
               >¿Desea recordar su contraseña?</label
             >
@@ -84,8 +85,8 @@
         </div>
         <div class="row">
             <div class="col-12 div-boton">
-                <button type="button boton-login" class="btn btn-secondary">Recuperar Contraseña</button>
-                <button type="button boton-login" class="btn btn-secondary">Iniciar Sesión</button>
+              <button type="button" class="btn btn-outline-secondary boton-login boton-recuperar-password">Recuperar contraseña</button>
+                <button type="button" class="btn btn-secondary boton-login boton-iniciar-sesion">Iniciar Sesión</button>
             </div>
         </div>
       </form>

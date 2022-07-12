@@ -10,7 +10,7 @@ const crearNuevaLinea = (id, nombre, precio, imagen, nuevoprecio) => {
       <div class="imagen-producto" id="img${id}"></div>
       <p class="nombre-producto">${nombre}</p>
       <p class="precio-producto">${precio}</p>
-      <a href="articulo.html?id=${id}"><button type="button" class="btn btn-outline-secondary">Ver producto</button></a>`;
+      <a href="articulo.html?id=${id}"><button type="button" class="btn btn-outline-secondary btn-ver-producto">Ver producto</button></a>`;
   linea.innerHTML = contenido;
   linea.querySelector(
     ".imagen-producto"
