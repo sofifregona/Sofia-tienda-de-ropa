@@ -2,7 +2,7 @@
   "productos": [
     {
       "id": "0001",
-      "nombre": "Camisa Leopardo",
+      "nombre": "Camisa Jane",
       "categoria": "Camisas",
       "precio": "$75.0",
       "imagen": "assets/img/imagen_1.jpg",
@@ -79,7 +79,7 @@
       },
       {
         "id": "0008",
-        "nombre": "Saco Semi Leopardo",
+        "nombre": "Blusa Abigail",
         "categoria": "Abrigos",
         "imagen": "assets/img/imagen_8.jpg",
         "precio": "$75.0",
@@ -90,7 +90,7 @@
       },
       {
         "id": "0009",
-        "nombre": "Saco Jorgelina",
+        "nombre": "Saco Jaguar",
         "categoria": "Abrigos",
         "imagen": "assets/img/imagen_9.jpg",
         "precio": "$75.0",
@@ -101,7 +101,7 @@
       },
       {
         "id": "0010",
-        "nombre": "Saco Jessica",
+        "nombre": "Saco Jorgelina",
         "categoria": "Abrigos",
         "imagen": "assets/img/imagen_10.jpg",
         "precio": "$75.0",
@@ -112,7 +112,7 @@
       },
       {
         "id": "0011",
-        "nombre": "Saco Paradise",
+        "nombre": "Saco Jessica",
         "categoria": "Abrigos",
         "imagen": "assets/img/imagen_11.jpg",
         "precio": "$75.0",
@@ -123,7 +123,7 @@
       },
       {
         "id": "0012",
-        "nombre": "Campera Piel Sintética",
+        "nombre": "Saco Paradise",
         "categoria": "Abrigos",
         "imagen": "assets/img/imagen_12.jpg",
         "precio": "$75.0",
@@ -134,7 +134,7 @@
       },
       {
         "id": "0013",
-        "nombre": "Saco Gold",
+        "nombre": "Campera Piel Sintética",
         "categoria": "Abrigos",
         "imagen": "assets/img/imagen_13.jpg",
         "precio": "$75.0",
@@ -145,7 +145,7 @@
       },
       {
         "id": "0014",
-        "nombre": "Blusa Abigail",
+        "nombre": "Saco Gold",
         "categoria": "Blusas",
         "imagen": "assets/img/imagen_14.jpg",
         "precio": "$75.0",

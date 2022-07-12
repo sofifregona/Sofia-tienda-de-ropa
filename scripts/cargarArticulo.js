@@ -17,7 +17,7 @@ productoServicios.detalleProducto(id).then((response) => {
     response.talles.forEach((talle) => {
         if (talle !== []){
         const circulo = document.createElement("div");
-        circulo.innerHTML = talle;
+        circulo.innerHTML = `<p>${talle}</p>`;
         circulo.classList.add("talle");
         talles.appendChild(circulo);
     }
