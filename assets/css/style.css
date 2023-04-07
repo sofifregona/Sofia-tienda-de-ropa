@@ -35,6 +35,7 @@
 
 .nav-link {
   font-size: 15px;
+  cursor: pointer;
 }
 
 .filtro-producto {
